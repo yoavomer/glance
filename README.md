@@ -104,7 +104,7 @@ Elements:
 Requires Python 3.11+ and an [Anthropic API key](https://console.anthropic.com/settings/keys).
 
 ```bash
-git clone <this repo> && cd glance
+git clone https://github.com/yoavomer/glance.git && cd glance
 python -m venv .venv && source .venv/bin/activate
 pip install -e .
 playwright install chromium

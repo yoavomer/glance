@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 380" width="720" height="380" role="img" aria-label="Orchestrator context tokens per step: this design vs screenshot-in-context baseline">
+<style>
+  .surface { fill: #fcfcfb; }
+  .grid { stroke: #e6e5e0; }
+  .axis { stroke: #b8b7b0; }
+  .t1 { fill: #0b0b0b; } .t2 { fill: #52514e; }
+  .s1 { stroke: #2a78d6; } .f1 { fill: #2a78d6; }
+  .s2 { stroke: #eb6834; } .f2 { fill: #eb6834; }
+  .ring { stroke: #fcfcfb; }
+  @media (prefers-color-scheme: dark) {
+    .surface { fill: #1a1a19; }
+    .grid { stroke: #2e2e2c; }
+    .axis { stroke: #57564f; }
+    .t1 { fill: #f0efec; } .t2 { fill: #c3c2b7; }
+    .s1 { stroke: #3987e5; } .f1 { fill: #3987e5; }
+    .s2 { stroke: #d95926; } .f2 { fill: #d95926; }
+    .ring { stroke: #1a1a19; }
+  }
+  text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+</style>
+<rect class="surface" width="720" height="380" rx="8"/>
+<text class="t1" x="64" y="26" font-size="15" font-weight="600">Context the decision model reads at each step</text>
+<text class="t2" x="64" y="44" font-size="12">tokens per orchestrator call, same run, same screenshots</text>
+<line class="axis" x1="64" x2="570" y1="332.0" y2="332.0" stroke-width="1"/>
+<text class="t2" x="56" y="336.0" font-size="11" text-anchor="end">0k</text>
+<line class="grid" x1="64" x2="570" y1="263.0" y2="263.0" stroke-width="1"/>
+<text class="t2" x="56" y="267.0" font-size="11" text-anchor="end">5k</text>
+<line class="grid" x1="64" x2="570" y1="194.0" y2="194.0" stroke-width="1"/>
+<text class="t2" x="56" y="198.0" font-size="11" text-anchor="end">10k</text>
+<line class="grid" x1="64" x2="570" y1="125.0" y2="125.0" stroke-width="1"/>
+<text class="t2" x="56" y="129.0" font-size="11" text-anchor="end">15k</text>
+<line class="grid" x1="64" x2="570" y1="56.0" y2="56.0" stroke-width="1"/>
+<text class="t2" x="56" y="60.0" font-size="11" text-anchor="end">20k</text>
+<text class="t2" x="64.0" y="350" font-size="11" text-anchor="middle">1</text>
+<text class="t2" x="106.2" y="350" font-size="11" text-anchor="middle">2</text>
+<text class="t2" x="148.3" y="350" font-size="11" text-anchor="middle">3</text>
+<text class="t2" x="190.5" y="350" font-size="11" text-anchor="middle">4</text>
+<text class="t2" x="232.7" y="350" font-size="11" text-anchor="middle">5</text>
+<text class="t2" x="274.8" y="350" font-size="11" text-anchor="middle">6</text>
+<text class="t2" x="317.0" y="350" font-size="11" text-anchor="middle">7</text>
+<text class="t2" x="359.2" y="350" font-size="11" text-anchor="middle">8</text>
+<text class="t2" x="401.3" y="350" font-size="11" text-anchor="middle">9</text>
+<text class="t2" x="443.5" y="350" font-size="11" text-anchor="middle">10</text>
+<text class="t2" x="485.7" y="350" font-size="11" text-anchor="middle">11</text>
+<text class="t2" x="527.8" y="350" font-size="11" text-anchor="middle">12</text>
+<text class="t2" x="570.0" y="350" font-size="11" text-anchor="middle">13</text>
+<text class="t2" x="317.0" y="370" font-size="12" text-anchor="middle">step</text>
+<polyline class="s2" points="64.0,305.9 106.2,285.6 148.3,265.3 190.5,244.9 232.7,224.7 274.8,204.0 317.0,183.2 359.2,163.1 401.3,142.4 443.5,121.9 485.7,101.4 527.8,80.9 570.0,60.2" fill="none" stroke-width="2" stroke-linejoin="round"/>
+<circle class="f2 ring" cx="64.0" cy="305.9" r="4" stroke-width="2"/>
+<circle class="f2 ring" cx="106.2" cy="285.6" r="4" stroke-width="2"/>
+<circle class="f2 ring" cx="148.3" cy="265.3" r="4" stroke-width="2"/>
+<circle class="f2 ring" cx="190.5" cy="244.9" r="4" stroke-width="2"/>
+<circle class="f2 ring" cx="232.7" cy="224.7" r="4" stroke-width="2"/>
+<circle class="f2 ring" cx="274.8" cy="204.0" r="4" stroke-width="2"/>
+<circle class="f2 ring" cx="317.0" cy="183.2" r="4" stroke-width="2"/>
+<circle class="f2 ring" cx="359.2" cy="163.1" r="4" stroke-width="2"/>
+<circle class="f2 ring" cx="401.3" cy="142.4" r="4" stroke-width="2"/>
+<circle class="f2 ring" cx="443.5" cy="121.9" r="4" stroke-width="2"/>
+<circle class="f2 ring" cx="485.7" cy="101.4" r="4" stroke-width="2"/>
+<circle class="f2 ring" cx="527.8" cy="80.9" r="4" stroke-width="2"/>
+<circle class="f2 ring" cx="570.0" cy="60.2" r="4" stroke-width="2"/>
+<rect class="f2" x="580.0" y="55.22280000000001" width="10" height="10" rx="2"/>
+<text class="t1" x="596.0" y="58.22280000000001" font-size="12" font-weight="600">19,694</text>
+<text class="t2" x="596.0" y="72.2228" font-size="11">screenshots in context</text>
+<polyline class="s1" points="64.0,304.8 106.2,301.4 148.3,299.9 190.5,295.4 232.7,296.8 274.8,295.8 317.0,295.1 359.2,294.9 401.3,294.0 443.5,293.3 485.7,291.9 527.8,288.3 570.0,289.2" fill="none" stroke-width="2" stroke-linejoin="round"/>
+<circle class="f1 ring" cx="64.0" cy="304.8" r="4" stroke-width="2"/>
+<circle class="f1 ring" cx="106.2" cy="301.4" r="4" stroke-width="2"/>
+<circle class="f1 ring" cx="148.3" cy="299.9" r="4" stroke-width="2"/>
+<circle class="f1 ring" cx="190.5" cy="295.4" r="4" stroke-width="2"/>
+<circle class="f1 ring" cx="232.7" cy="296.8" r="4" stroke-width="2"/>
+<circle class="f1 ring" cx="274.8" cy="295.8" r="4" stroke-width="2"/>
+<circle class="f1 ring" cx="317.0" cy="295.1" r="4" stroke-width="2"/>
+<circle class="f1 ring" cx="359.2" cy="294.9" r="4" stroke-width="2"/>
+<circle class="f1 ring" cx="401.3" cy="294.0" r="4" stroke-width="2"/>
+<circle class="f1 ring" cx="443.5" cy="293.3" r="4" stroke-width="2"/>
+<circle class="f1 ring" cx="485.7" cy="291.9" r="4" stroke-width="2"/>
+<circle class="f1 ring" cx="527.8" cy="288.3" r="4" stroke-width="2"/>
+<circle class="f1 ring" cx="570.0" cy="289.2" r="4" stroke-width="2"/>
+<rect class="f1" x="580.0" y="284.2062" width="10" height="10" rx="2"/>
+<text class="t1" x="596.0" y="287.2062" font-size="12" font-weight="600">3,101</text>
+<text class="t2" x="596.0" y="301.2062" font-size="11">this design (text only)</text>
+</svg>

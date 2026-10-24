@@ -1,0 +1,18 @@
+[project]
+name = "glance"
+version = "0.1.0"
+description = "A computer-use agent whose orchestrator never sees a screenshot."
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+    "playwright>=1.64",
+    "anthropic>=2.3",
+    "python-dotenv>=1.2",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
